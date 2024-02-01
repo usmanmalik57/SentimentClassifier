@@ -1,14 +1,8 @@
-import joblib
-import os
-
-print (os.getcwd())
-tfidf_vectorizer = joblib.load(r'tfidf_vectorizer.pkl')
-rf_classifier = joblib.load(r'lr_classifier.pkl')
+import dataloader
 
 
-def get_classifier_tfidf():
+rf_classifier, tfidf_vectorizer = dataloader.get_classifier_tfidf()
 
-    return rf_classifier, tfidf_vectorizer
 
 
 # Predict the sentiment of a single text review using the trained classifier
