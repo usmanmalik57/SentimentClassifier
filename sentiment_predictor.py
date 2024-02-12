@@ -10,6 +10,7 @@ def main():
     st.title("Movie Sentiment Analysis (Title updated from Feature1)")
 
     # Create a text input widget for user input
+    st.message("A message from main branch")
     user_input = st.text_area("Enter a review:")
 
     if st.button("Get Sentiment"):
