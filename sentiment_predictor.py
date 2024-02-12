@@ -6,7 +6,7 @@ rf_classifier, tfidf_vectorizer = dataloader.get_classifier_tfidf()
 
 # Define the Streamlit app
 def main():
-    st.title("Sentiment Analysis App")
+    st.title("Sentiment Analysis App Using Sklearn")
 
     # Create a text input widget for user input
     user_input = st.text_area("Enter a review:")
