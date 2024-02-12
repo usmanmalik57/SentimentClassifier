@@ -13,6 +13,7 @@ def main():
 
     st.text("Message from feature 1")
     st.text("Message from main")
+    st.text("Message from feature 2")
 
 
     if st.button("Get Sentiment"):
