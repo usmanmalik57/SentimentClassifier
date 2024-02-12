@@ -1,9 +1,7 @@
 sudo su
 sudo apt update
-sudo apt install python3-pip
-pip3 install joblib
-pip3 install streamlit
-pip3 install scikit-learn
 git --version
 git clone directory_name
+sudo apt install python3-pip
+pip3 install -r requirements
 python3 -m streamlit run sentiment_predictor.py
