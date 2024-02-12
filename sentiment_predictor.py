@@ -11,6 +11,8 @@ def main():
 
     user_input = st.text_area("Enter a review:")
 
+    st.text("Message from feature 1")
+
     if st.button("Get Sentiment"):
         if user_input:
             # Predict the sentiment
