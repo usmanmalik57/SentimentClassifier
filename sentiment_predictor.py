@@ -12,6 +12,7 @@ def main():
     user_input = st.text_area("Enter a review:")
 
     st.text("Message from feature 1")
+    st.text("Message from feature 2")
 
     if st.button("Get Sentiment"):
         if user_input:
